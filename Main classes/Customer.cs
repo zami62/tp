@@ -10,5 +10,22 @@ namespace tp
     {
         public int OrdersCount { get; private set; }
         public int CustomerID { get; private set; }
+
+        public Customer() { }
+
+        public void CreateOrderRequest()
+        {
+
+        }
+
+        public void MakePayment()
+        {
+
+        }
+
+        public void ReceivePackage()
+        {
+
+        }
     }
 }
